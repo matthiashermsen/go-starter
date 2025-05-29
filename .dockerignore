@@ -1,0 +1,27 @@
+# Docker
+Dockerfile
+.dockerignore
+
+# Editor
+.vscode
+.idea
+.zed
+
+# Github
+.github
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Go
+*_test.go
+
+# GoReleaser
+dist/
+.goreleaser.yaml
+
+# Repository
+README.md
+LICENSE

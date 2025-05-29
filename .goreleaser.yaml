@@ -1,0 +1,10 @@
+version: 2
+
+builds:
+  - ldflags:
+      - -X "{{.ModulePath}}/app.Version={{.Tag}}"
+
+dockers:
+  - image_templates:
+      - "ghcr.io/matthiashermsen/{{.ProjectName}}:latest" # TODO change me
+      - "ghcr.io/matthiashermsen/{{.ProjectName}}:{{.Tag}}" # TODO change me
