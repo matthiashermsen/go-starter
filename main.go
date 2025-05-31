@@ -4,8 +4,9 @@ import (
 	"fmt"
 
 	"github.com/matthiashermsen/go-starter/app"
+	"github.com/matthiashermsen/go-starter/logging"
 )
 
 func main() {
-	fmt.Printf("Current app version is: %s", app.Version)
+	logging.Info(fmt.Sprintf("Running on version %s", app.Version))
 }

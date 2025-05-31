@@ -6,7 +6,7 @@ Quickly get started with a minimal Golang starter template!
 
 ## Features
 
-- Bare Golang application
+- Bare Golang application with logging ( pointing to the standard output )
 - Release management using [GoReleaser](https://goreleaser.com/)
 - Github container registry for [Docker](https://www.docker.com/)
 - Updates using [Dependabot](https://github.com/dependabot)
